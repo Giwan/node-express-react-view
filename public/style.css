@@ -1,0 +1,25 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: silver;
+  height: 10vh;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+header div {
+  font-weight: bold;
+  margin-left: 16px;
+}
